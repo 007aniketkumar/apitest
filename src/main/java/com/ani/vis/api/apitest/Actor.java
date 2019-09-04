@@ -3,11 +3,11 @@ package com.ani.vis.api.apitest;
 public class Actor {
 
 
-	public int getId() {
-		return id;
+	public String getactorID() {
+		return actorID;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setactorID(String actorID) {
+		this.actorID = actorID;
 	}
 	public int getLogin() {
 		return login;
@@ -21,7 +21,7 @@ public class Actor {
 	public void setAvatar_url(String avatar_url) {
 		this.avatar_url = avatar_url;
 	}
-	private int id;
+	private String actorID;
 	
 	private int login;
 	private String avatar_url;
